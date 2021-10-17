@@ -1,0 +1,177 @@
+body
+{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.PocetnaTraka
+{
+    width: 100%;
+    height:90px;
+    background-color:gray;
+    position: fixed;
+    top: 0;
+    padding: 7px;
+}
+
+#Izbornik ul li,
+#Izbornik ul li a
+{
+    display: inline-block;
+}
+
+.PocetnaTraka img
+{
+    height: 70px;
+    width: auto;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 40px;
+    float: left;
+}
+
+#Izbornik
+{
+    padding-top: 15px;
+    float: left;
+}
+
+#Izbornik ul li img
+{
+    height: 18px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+#Izbornik ul li a
+{
+    text-decoration: none;
+    color: yellow;
+    font-size: 19px;
+    margin-right: 10px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+#Naslov
+{
+    animation: AnimacijaNaslov 1s ease;
+}
+
+
+#Naslov h1
+{
+    margin-top: 140px;
+    text-align: center;
+    font-size:2.5em;
+    font-weight:500;
+}
+
+.SlikeLinkovi 
+{
+    margin-top: 50px; 
+    height: 410px; 
+    background-color: whitesmoke;
+}
+
+.SlikeLinkovi ul li 
+{
+    display: inline-block; 
+    width: 360px;
+    height: 200px;
+    overflow:hidden;
+    padding-top: 120px;
+    margin-left: 200px;
+    animation: AnimacijaSlike 1s ease;
+    padding-left: 10px;
+}
+
+
+
+.SlikeLinkovi img 
+{
+    width: 250px;
+    height: 200px;
+    margin-top: -65px;
+    margin-left: -5px;
+    border-radius: 50%;
+    border: 20px solid ;
+    border-color:whitesmoke;
+    box-shadow: 0.5px 1px 7px 2px gray;
+}
+
+
+
+
+.Podnozje 
+{
+    margin-top: -39px;
+    width: 100%;
+    position: relative;
+}
+
+.Podnozje img 
+{
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    max-height: 300px;
+    margin-bottom: -10px;
+}
+
+.Text p 
+{
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 390px;
+    margin-top: -240px;
+    color: whitesmoke;
+    overflow: hidden;
+    position: absolute;
+}
+
+.SlikeText p 
+{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: -250px;
+    overflow: hidden;
+    position: absolute;
+    animation: AnimacijaNaslov 1s ease;
+}
+
+#text2 
+{
+    margin-top: -140px;
+    font-weight: 800;
+    padding-left: 810px;
+    color:yellow;
+}
+
+#text3
+{
+    padding-left: 347px;
+    color:yellow;
+}
+
+#text4
+{
+    padding-left: 910px;
+    color:black;
+}
+
+@keyframes AnimacijaNaslov
+{
+    0%{transform: translateY(50px);}
+    100%{transform: translateY(0px);}
+}
+
+@keyframes AnimacijaSlike {
+    0%{transform: scale(0.2);
+        opacity: 0;}
+    100%{transform: scale(1);
+        opacity: 1;}
+}
+

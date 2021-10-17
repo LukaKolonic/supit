@@ -1,0 +1,125 @@
+body
+{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.PocetnaTraka
+{
+    width: 100%;
+    height:90px;
+    background-color:gray;
+    position: fixed;
+    top: 0;
+    padding: 7px;
+    z-index: 1;
+}
+
+#Izbornik ul li,
+#Izbornik ul li a
+{
+    display: inline-block;
+}
+
+.PocetnaTraka img
+{
+    height: 70px;
+    width: auto;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 40px;
+    float: left;
+}
+
+#Izbornik
+{
+    padding-top: 15px;
+    float: left;
+}
+
+#Izbornik ul li img
+{
+    height: 18px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+#Izbornik ul li a
+{
+    text-decoration: none;
+    color: yellow;
+    font-size: 19px;
+    margin-right: 10px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.PrvenstvoHrvatske 
+{
+    width:100%;   
+    animation: Animacija1 1s ease; 
+}
+
+.PrvenstvoHrvatske img
+{
+   display: block; 
+   width:100%; 
+   max-height: 420px;
+   margin: 0px;
+   object-fit: cover;
+   object-position: 0px -50px;
+   overflow: hidden;
+}
+
+
+
+.Naslov h1 
+{
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 40px;   
+}
+
+.Naslov
+{
+    animation: AnimacijaNaslov 1s ease;
+}
+
+.PrvenstvoHrvatskeText
+{
+    font-size: 15px;
+    line-height: 23px;
+    padding: 10px 270px 10px 270px;
+    margin-top: 5px; 
+    height: 190px; 
+}
+
+.Podnozje 
+{
+    margin-top: 14px;
+    width: 100%;
+    position: relative;    
+}
+
+.Podnozje img 
+{
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    max-height: 177px;
+    margin-bottom: -10px;    
+}
+
+@keyframes Animacija1 
+{
+    0%{transform: translateY(-100px);}
+    100%{transform: translateY(0px);}
+}
+
+@keyframes AnimacijaNaslov
+{
+    0%{transform: translateY(50px);}
+    100%{transform: translateY(0px);}
+}

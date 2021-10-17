@@ -1,0 +1,368 @@
+body
+{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.PocetnaTraka
+{
+    width: 100%;
+    height:90px;
+    background-color:gray;
+    position: fixed;
+    padding:7px;
+    z-index: 1;
+}
+
+#Izbornik ul li,
+#Izbornik ul li a
+{
+    display: inline-block;
+}
+
+.PocetnaTraka img
+{
+    height: 70px;
+    width: auto;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 40px;
+    float: left;
+}
+
+#Izbornik
+{
+    padding-top: 15px;
+    float: left;
+}
+
+#Izbornik ul li img
+{
+    height: 18px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+#Izbornik ul li a
+{
+    text-decoration: none;
+    color: yellow;
+    font-size: 19px;
+    margin-right: 10px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+#IzbornikPadel ul li,
+#IzbornikPadel ul li a
+{
+    display: inline-block;
+}
+
+#IzbornikPadel
+{
+    padding-top: 18px;
+    float: right;
+    padding-right: 20px;
+    animation: AnimacijaTraka  1s ease;
+}
+
+#IzbornikPadel ul li a
+{
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+#Padel
+{
+    max-height: 380px; 
+    animation: Animacija1 1s ease;
+    z-index: 0;
+}
+
+#Padel img
+{
+    object-fit: cover; 
+    object-position:left;
+    position:static;
+    width: 100%;
+    height: 380px;
+}
+
+#header
+{
+    animation: AnimacijaNaslov 1s ease;
+}
+
+#header h1
+{
+    text-align:center;
+    font-size:2.5em;
+    font-weight:500;
+}
+
+.Podnaslovi h2
+{
+    text-align:center;
+    font-size:1.5em;
+    font-weight:500;
+    color:gray;
+    padding-top: 30px;
+}
+
+.Podnaslovi h2 img 
+{
+    height: 18px;
+}
+
+
+
+
+.Tekst p
+{
+    text-align:center;
+    padding-bottom: 55px;
+    padding-top: 20px;
+    font-size: 1.2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:olivedrab;
+    font-style: italic;
+    width: 890px;
+    margin: auto;
+}
+
+.sadrzaj
+{
+    display: flex;
+    justify-content: center;
+}
+
+.sadrzaj article 
+{
+    width: 25%;
+    margin: 1em;
+    border: 2px solid green;
+    padding: 1em;
+    background: whitesmoke;
+    border-radius: 15px;
+}
+
+ .sadrzaj article h2 
+{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.sadrzaj article p 
+{
+    font-size: 15px;
+    padding: 2px 20px 0px 20px;
+    text-align: justify;
+    font-family:cursive;
+}
+
+.Pravila,
+.Drzave 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Pravila article 
+{
+    width: 345px;
+    margin: 3px;
+    border: 2px dotted grey;
+    background: whitesmoke;
+    padding: 17px 18px 19px 18px;
+}
+
+
+.Pravila article h2 
+{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: darkgreen;	
+    border-bottom: 2px solid grey;
+    line-height: 28px; 
+    padding-bottom: 2px;
+    box-shadow: 2px 2px 3px 1px darkgreen;
+}
+
+
+
+.Pravila article p 
+{
+    line-height: 20px;
+    font-size: 14px;
+    text-align: justify;   
+    color: black;	
+}
+
+
+.Drzave article
+ {
+    width: 260px;
+    margin: 10px;
+    background: white;
+    padding: 12px 15px 45px 10px;
+    border: none;
+}
+
+.Drzave article h2
+ {
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: black;	
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 4px;
+}
+
+.Drzave article p img
+ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    box-shadow: 4px 4px 9px 3px grey;
+}
+
+.Poz 
+{
+    width: 97%;
+    height: auto;
+    border-spacing: 15px;
+    padding: 19px 15px;
+    background-image: url(/Materijali/Pozadina.png);
+    background-position: top;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+div.Navigacija 
+{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Navigacija #hr
+{
+    margin-left: 260px;
+}
+
+.Navigacija #sp
+{
+    margin-left: 110px;
+}
+
+
+
+.Lokacija
+{
+    display: flex;
+    justify-content: center;
+}
+
+.Lokacija article 
+{
+    width: 35%;
+    margin: 1em;
+    border: 1px solid grey;
+    padding: 1em;
+    background: white;
+    border-radius: 15px;
+}
+
+ .Lokacija article h2 
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.Lokacija article p 
+{
+    font-size: 15px;
+    padding: 2px 20px 0px 20px;
+    text-align: justify;
+    font-family:cursive;
+}
+
+.Lokacija h3 img 
+{
+    height: 18px;
+}
+
+
+.Podnozje
+{
+    width: 100%;
+    position: relative;
+}
+
+.Podnozje img 
+{
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    max-height: 300px;
+    margin-bottom: -10px;
+}
+
+.Text p 
+{
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 390px;
+    margin-top: -240px;
+    color: whitesmoke;
+    overflow: hidden;
+    position: absolute;
+}
+
+#text2 
+{
+    margin-top: -140px;
+    font-weight: 800;
+    padding-left: 810px;
+    color:yellow;
+}
+
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+
+
+@keyframes Animacija1 
+{
+    0%{transform: translateY(-100px);}
+    100%{transform: translateY(0px);}
+}
+
+@keyframes AnimacijaNaslov
+{
+    0%{transform: translateY(50px);}
+    100%{transform: translateY(0px);}
+}
+
+@keyframes AnimacijaTraka
+{
+    0%{transform: translateX(300px);}
+    100%{transform: translateX(0px);}
+}
+
